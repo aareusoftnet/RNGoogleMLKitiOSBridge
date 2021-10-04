@@ -1,0 +1,87 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+android/app/debug/output-metadata.json
+
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# iOS
+xcuserdata
+/ios/Pods/
+/ios/Podfile.lock
+ios/BridgingDemo.xcodeproj/project.xcworkspace
+ios/BridgingDemo.xcodeproj/xcuserdata/
+ios/BridgingDemo.xcodeproj/xcshareddata
+ios/BridgingDemo.xcodeproj/project.xcworkspace/xcuserdata
+ios/BridgingDemo.xcodeproj/project.xcworkspace/ios/BridgingDemo.xcworkspace
+ios/BridgingDemo.xcworkspace/contents.xcworkspacedata
+ios/BridgingDemo.xcworkspace/xcuserdata
+ios/BridgingDemo.xcworkspace
+ios/BridgingDemo.xcworkspace/xcshareddata
+
+
+# VSCode
+.vscode/.react/debuggerWorker.js
+.vscode/.react/index.bundle
+.vscode/.react/index.map
+.vscode/launch.json
+
+# yarn
+yarn.lock
+yarn-error.log
+
+# package
+package-lock.json
+*.hprof
